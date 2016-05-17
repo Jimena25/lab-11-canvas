@@ -6,15 +6,15 @@ function draw() {
         var sketch = document.getElementById('sketch');
         var context = sketch.getContext("2d");
 
-        
- context.fillStyle = "#0000ff"
- context.fillRect(145,145, 200, 200);
+         context.fillStyle = "#00ff00"
 
-       
         context.beginPath();
-        context.arc( 70, 215, 85, 0, 2 * Math.PI, true);
+        context.arc( 45, 45, 35, 0, 2 * Math.PI, true);
         context.closePath();
         context.fill();
+
+         context.fillStyle = "#0000ff"
+ context.fillRect(85,15, 65, 65);
 }
 </script>
 </body> 
